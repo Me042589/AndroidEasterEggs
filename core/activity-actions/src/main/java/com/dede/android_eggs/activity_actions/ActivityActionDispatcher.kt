@@ -22,7 +22,7 @@ internal class ActivityActionDispatcher : Application.ActivityLifecycleCallbacks
 
     interface ActivityAction {
 
-        fun isEnabled(): Boolean = true
+        fun isEnabled(): Boolean = false
 
         fun onPreCreate(activity: Activity) {}
 
